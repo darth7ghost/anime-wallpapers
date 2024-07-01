@@ -60,9 +60,11 @@ header{
 }
 
 section{
+    padding: 20px;
     margin: 0 auto;
     max-width: 1200px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
@@ -84,6 +86,7 @@ section{
 }
 
 .info-card{
+    padding: 20px;
     margin: 0 auto;
     max-width: 1000px;
     margin-bottom: 40px;
@@ -103,6 +106,28 @@ section{
 }
 
 footer{
-    padding: 80px;
+    padding: 80px 80px;
     text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    .card{
+        width: 350px;
+        margin-bottom: 20px;
+    }
+    
+    .card-image{
+        width: 350px;
+    }
+
+    .info-card{
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 1000px;
+        margin-bottom: 20px;
+    }
+
+    footer{
+        padding: 20px;
+    }
 }
