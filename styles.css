@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+	--poppins: 'Poppins', sans-serif;
+	--lato: 'Lato', sans-serif;
+
+	--fondo: #060714;
+	--marcos: #071952;
+	--light-blue: #CFE8FF;
+	--grey: #eee;
+	--dark-grey: #AAAAAA;
+	--dark: #342E37;
+	--red: #DB504A;
+	--yellow: #FFCE26;
+	--light-yellow: #FFF2C6;
+	--orange: #FD7238;
+	--light-orange: #FFE0D3;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	background: var(--fondo);
+	overflow-x: hidden;
+}
+
+h1{font-size: 48px;}
+
+h1, h2, h3{
+    font-family: var(--lato);
+    color: var(--grey);
+}
+
+p, text{
+    font-family: var(--poppins);
+    color: var(--grey);
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+header{
+    width: 100%;
+    padding: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section{
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card{
+    margin: 0 auto;
+    border-radius: 20px;
+    background: var(--marcos);
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.card-image{
+    width: 400px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.info{
+    padding: 10px;
+}
+
+.info-card{
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-bottom: 40px;
+}
+
+.donation-card{
+    margin: 0 auto;
+    border-radius: 20px;
+    background: var(--marcos);
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+.donation-image{
+    width: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+footer{
+    padding: 80px;
+    text-align: center;
+}
